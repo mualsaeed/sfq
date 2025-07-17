@@ -22,12 +22,12 @@ const { title, github } = useAppConfig()
               class="flex items-center justify-center w-8 h-8 rounded-full"
             >
               <img
-                src="/sink.png"
+                src="https://ci3.googleusercontent.com/meips/ADKq_NZbNnMK6wGeJh9wCR6UaIVXC0HrMW_V2txors7H7nv8uIe4NqLfld9vTCxRjVIL1V1yQwFaGnhZu8BpIOqdy2jyTO8ncPCCWZa-vR0qyGMvOj3ur_jV4lW3OvVrj8dINJgRov4fyZUHw-BvsdWEpVwWtl1EmFAATsE=s0-d-e1-ft#https://mcusercontent.com/b214384ed204b038a64902066/images/76095819-b6d3-3cd1-292d-4d8c93e3e4b6.png"
                 :alt="title"
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">{{ title }}</span>
+            <span class="mx-2">Safqah Link Shortener</span>
           </a>
         </div>
 
@@ -64,16 +64,6 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
-              <a
-                :href="github"
-                target="_blank"
-                title="Github"
-                class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-gray-900 md:px-3 md:w-auto md:rounded-full hover:bg-gray-800 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-gray-800 mr-2"
-              >
-                <GitHubIcon
-                  class="w-5 h-5 mr-1"
-                />
-                GitHub</a>
 
               <SwitchLanguage />
 
